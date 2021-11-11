@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Menu"
+            android:icon="@drawable/outline_restaurant_menu_black_18"
+            android:title="@string/menu_Order" />
+        <item
+            android:id="@+id/nav_datcho"
+            android:icon="@drawable/outline_chair_black_18"
+            android:title="@string/menu_Seat" />
+        <item
+            android:id="@+id/nav_hoadon"
+            android:icon="@drawable/outline_receipt_black_18"
+            android:title="@string/menu_Hoadon" />
+        <item
+            android:id="@+id/nav_doanhthu"
+            android:icon="@drawable/outline_show_chart_black_18"
+            android:title="@string/menu_Doanhthu" />
+    </group>
+    <item android:title="Comnunity">
+        <menu>
+            <item
+                android:id="@+id/nav_vote"
+                android:icon="@drawable/outline_thumb_up_black_18"
+                android:title="@string/menu_Vote" />
+            <item
+                android:id="@+id/nav_user"
+                android:icon="@drawable/outline_account_circle_black_18"
+                android:title="@string/menu_User" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/outline_logout_black_18"
+                android:title="@string/menu_Signout" />
+        </menu>
+    </item>
+</menu>
